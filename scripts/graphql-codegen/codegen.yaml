@@ -1,0 +1,10 @@
+overwrite: true
+schema: scripts/graphql-codegen/schema.graphql
+generates:
+  src/api/graphql/generated.ts:
+    config:
+      withHooks: true
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-vue-apollo

@@ -1,2 +1,24 @@
-# graphql-codegen-vue-client
-Testing the creation of a code-generated GraphQL typescript client for the Vue.js
+# Creation GraphQL codegenerated Vue.js client
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
